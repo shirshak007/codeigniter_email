@@ -5,7 +5,7 @@ if (!defined('BASEPATH')) {
 
 require APPPATH . '/libraries/BaseController.php';
 
-class Test extends BaseController {
+class CodeigniterEmailSending extends BaseController {
 	public function __construct() {
 		parent::__construct();
 	}
