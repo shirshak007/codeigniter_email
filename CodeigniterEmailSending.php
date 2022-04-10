@@ -20,7 +20,7 @@ class Test extends BaseController {
 	*/    
 	public function sendMyEmail() {
 	    //prepare config array
-	    $config['protocol'] = PROTOCOL;
+	    $config['protocol'] = "smtp";
 	    $config['smtp_host'] = "smtp.gmail.com";
 	    $config['smtp_user'] = "youremail@gmail.com";
 	    $config['smtp_pass'] = "your_app_password";
